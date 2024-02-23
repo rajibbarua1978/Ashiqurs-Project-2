@@ -1,0 +1,195 @@
+/* Common */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+a{
+    text-decoration: none;}
+ul,ol{
+    list-style: none;}
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;}
+body{
+    font-family: var(--font-family);
+}
+/* Common Ends*/
+/* navbar */
+
+#Menu li a{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 200%;
+  color: #353535;
+  text-transform: uppercase;
+  padding: 18px 22px 5px;
+  position: relative;
+  transition: 0.3s;}
+
+#Menu li a::before{
+content: "";
+width: 0%;
+height: 1px;
+background-color: #353535;
+position: absolute;
+bottom: 0;}
+
+#Menu li:hover a::before{
+    width: 100% ;}
+
+/* navbar ends */
+#banner .container .row{
+    padding: 109px;}
+#banner .container .row h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;}
+#banner .container .row h1{
+    padding-top: 15px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+#banner .container .row p{
+    padding-top: 25px; 
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+#banner .contact{
+    padding-top: 48px;
+}
+#banner .contact a {
+    width: 174px;
+    height: 63px;
+    padding: 16px 32px;
+    background-color: #fc0;
+    margin-top: 40px;
+    font-size: 18px ;
+    font-weight: 600;
+    border-radius: 16px;
+    color: #fff ;}
+
+    #banner .contact a:hover{
+        background-color: #fc0;
+        color: #fc0;   
+        border: none;} 
+        banner .banner-footer a{
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #484848;
+            text-align: center;
+            line-height: 48px;
+            color: #fff;}
+    #banner .container .row .btn-banner{
+        padding-top: 75px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 22px;
+        color: #353535;
+        display: flex;
+        align-items: center;
+        column-gap: 40px;}
+        #banner .container .row .btn-banner a{
+        color: #353535;}
+    #banner .container .row .btn-banner a i{
+        justify-content: space-around;}  
+        
+        .btn-icon{
+            display: flex;
+            column-gap: 20px;
+            }      
+    /* /* banner ends */
+    /* about starts */
+    #about {
+        background-image: url(./images/background\ Image1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 556px;}
+    /* about ends */
+/* footer ends */
+footer{
+    background-image: url(./images/background\ Image.jpg);
+    padding: 71px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+.image-design img{
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+
+}
+.middle-content{
+color: #fff;}
+.middle-content p{
+    width: 410px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #BBB9B9;
+}
+.middle-content h4{
+    width: 370px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+footer .footer-btn a{
+    width: 174px;
+    height: 63px;
+    padding: 16px 32px;
+    background-color: #fc0;
+    margin-top: 40px;
+    font-size: 18px ;
+    font-weight: 600;
+    line-height: 180%;
+    font-family: var(--font-family);
+    display: inline-block ;border-radius: 16px;
+    color: #fff ;}
+footer .icons a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #484848;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+}
+.last-content{
+    margin-top: 50px;
+    width: 1744px;
+    height: 133px;
+   
+}
+.icon-design{
+    display: flex;
+    justify-content: space-around;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    }
+    
+    .icon-design a{
+    margin-right: 20px;
+    }
+.icons span{
+    margin-left: -194px;
+    margin-right: 20px;
+}
+/* footer Ends */
